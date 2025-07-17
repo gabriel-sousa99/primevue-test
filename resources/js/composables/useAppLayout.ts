@@ -1,6 +1,15 @@
 import { ref, computed, onMounted, onUnmounted, watchEffect } from 'vue';
 import { usePage, useForm } from '@inertiajs/vue3';
-import { LayoutGrid, House, Info, Settings, LogOut, ExternalLink, FileSearch, FolderGit2 } from 'lucide-vue-next';
+import {
+    LayoutGrid,
+    House,
+    Info,
+    Settings,
+    LogOut,
+    ExternalLink,
+    FileSearch,
+    FolderGit2,
+} from 'lucide-vue-next';
 import { MenuItem } from '@/types';
 
 export function useAppLayout() {
@@ -43,18 +52,6 @@ export function useAppLayout() {
                     target: '_blank',
                     lucideIcon: ExternalLink,
                 },
-                {
-                    label: 'Starter Kit Docs',
-                    url: 'https://connorabbas.github.io/laravel-primevue-starter-kit-docs/',
-                    target: '_blank',
-                    lucideIcon: FileSearch,
-                },
-                {
-                    label: 'Starter Kit Repo',
-                    url: 'https://github.com/connorabbas/laravel-primevue-starter-kit',
-                    target: '_blank',
-                    lucideIcon: FolderGit2,
-                },
             ],
         },
     ]);
@@ -71,7 +68,7 @@ export function useAppLayout() {
             lucideIcon: Settings,
         },
         {
-            separator: true
+            separator: true,
         },
         {
             label: 'Log out',

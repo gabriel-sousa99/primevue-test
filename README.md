@@ -79,17 +79,15 @@ Certifique-se de ter instalado em sua máquina:
 
 ### 1. Clonagem e Instalação
 
-```bash
-# Clone o repositório
-git clone https://github.com/connora/laravel-primevue-starter-kit.git meu-projeto
-cd meu-projeto
-
 # Instale as dependências PHP
+
 composer install
 
 # Instale as dependências JavaScript
+
 npm install
-```
+
+````
 
 ### 2. Configuração do Ambiente
 
@@ -99,7 +97,7 @@ cp .env.example .env
 
 # Gere a chave da aplicação
 php artisan key:generate
-```
+````
 
 ### 3. Configuração do Docker
 

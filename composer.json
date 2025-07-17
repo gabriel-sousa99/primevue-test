@@ -1,6 +1,6 @@
 {
     "$schema": "https://getcomposer.org/schema.json",
-    "name": "connora/laravel-primevue-starter-kit",
+    "name": "paragonbr/primevue-test",
     "type": "project",
     "description": "Laravel + PrimeVue Starter Kit",
     "keywords": [
