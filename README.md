@@ -134,7 +134,7 @@ php artisan serve
 
 **Com Docker:** A aplicação estará disponível em http://laravel-primevue.localhost
 
-**Sem Docker:** A aplicação estará disponível em http://localhost:8000 (admin/admin123!)
+**Sem Docker:** A aplicação estará disponível em http://localhost:8000
 
 ### 6. Scripts Úteis
 
@@ -160,7 +160,7 @@ npm run lint
 
 O projeto inclui uma configuração completa do Docker com:
 
--   **Traefik** (proxy reverso) - http://localhost:8080
+-   **Traefik** (proxy reverso) - http://localhost:8080 (admin/admin123!)
 -   **Laravel** (aplicação) - http://laravel-primevue.localhost
 -   **PostgreSQL** (banco de dados) - porta 5432
 
